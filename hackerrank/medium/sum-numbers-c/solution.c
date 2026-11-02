@@ -2,13 +2,11 @@
 
 int main() {
     int a, b;
-    float x, y;
-
+    float c, d;
     scanf("%d %d", &a, &b);
-    scanf("%f %f", &x, &y);
-
-    printf("%d %d\n", a + b, a - b);
-    printf("%.1f %.1f\n", x + y, x - y);
-
+    scanf("%f %f", &c, &d);
+    
+    printf("%d %d\n", a+b, a-b);
+    printf("%.1f %.1f", c+d, c-d);
     return 0;
 }
